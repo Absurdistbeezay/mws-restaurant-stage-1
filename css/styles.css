@@ -134,6 +134,7 @@ nav h1 a {
 }
 
 .filter-options h2 {
+  padding-top: 10px;
   color: white;
   font-size: 1rem;
   font-weight: normal;
@@ -221,6 +222,10 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+#restaurants-list li a:hover {
+  background-color: #176807;
 }
 
 /* ====================== Restaurant Details ====================== */
@@ -328,4 +333,23 @@ nav h1 a {
 
 #restaurant-hours td {
   color: #666;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 462px) {
+  #restaurants-list {
+    margin-top: 40px;
+  }
+  .filter-options {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  #restaurants-list li {
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+  }
 }
