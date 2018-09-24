@@ -86,7 +86,9 @@ nav h1 a {
   background-color: #eee;
   font-size: 17px;
   margin: 0;
-  width: calc(50% - 80px);
+  width: calc(40% - 80px);
+  border-radius: 6px;
+  opacity: 0.8;
 }
 
 /* Display list items side by side */
